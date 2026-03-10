@@ -1,0 +1,5 @@
+{
+  "name": "Java Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "postCreateCommand": "curl -sSL raw.githubusercontent.com/bhupinderhappy777/ansible/refs/heads/main/scripts/bootstrap_container.sh | sudo -E bash"
+}
