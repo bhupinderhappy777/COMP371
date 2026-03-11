@@ -76,3 +76,37 @@ Planning and requirements phase.
 - Bhupinder Singh Gill: Diagrams and code implementation.
 - Navpreet Singh: Assist with code implementation and later testing with screenshots to ensure everything is working fine.
 
+---
+
+# Phases:
+
+## Phase 1 - Inception: capture vision, glossary, supplementary requirements, scope boundaries, and stakeholder goals for the airline reservation system. This establishes the problem definition and blocks all later analysis work.
+
+During Inception, we will focus on understanding the problem domain, defining the system's vision and scope, and identifying the key stakeholders and their goals. We will also create a glossary of terms to ensure a shared understanding of the domain vocabulary. This phase is critical for setting a solid foundation for all subsequent phases of the project.
+
+The main deliverables for this phase will include:
+- A clear vision statement for the airline reservation system.
+- A glossary of domain terms.
+- A list of supplementary requirements that capture non-functional requirements and business rules.
+- A use case inventory that identifies all the interactions between actors and the system.
+
+The output files can be found in the `docs/` directory, including `vision.md`, `glossary.md`, `supplementary_requirements.md`, and `use_cases.md`. These documents will be referenced throughout the project to ensure consistency and alignment with the defined vision and requirements.
+
+## Phase 2 - Elaboration: build the conceptual domain model, derive system operations from SSDs, write operation contracts for the risky flows, and assign responsibilities with GRASP. This establishes the core design and blocks all later implementation work.
+
+During Elaboration, we will focus on creating a detailed conceptual domain model that captures the key entities and their relationships in the airline reservation system. We will also derive system operations from the System Sequence Diagrams (SSDs) for the architecturally significant use cases and write operation contracts for the most complex and rule-heavy flows, such as booking, confirming, and canceling reservations.
+
+The following diagrams have been created and can be found in the `diagrams/` directory:
+
+**Use Case Diagram** — shows all actors (Customer, Airline Administrator) and their interactions with the system across provisioning and reservation services.
+
+![Use Case Diagram](diagrams/use-case-diagram.png)
+
+**Domain Model** — shows the conceptual entities, their key attributes, and associations derived from the use cases and glossary. No design or implementation details are included at this stage.
+
+![Domain Model](diagrams/domain-model.png)
+
+
+## Phase 3 - Construction: design and implement in thin vertical slices, starting with provisioning capabilities and then customer-facing services. This builds the system iteratively while maintaining alignment with the design.
+
+## Phase 4 - Transition: integrate the persistence layer, assemble the UI, and prepare for final verification and report assembly. This finalizes the system and prepares for delivery.
