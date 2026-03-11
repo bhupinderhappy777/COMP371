@@ -70,3 +70,9 @@ Planning and requirements phase.
 - Member 2: Navpreet Singh
 - Member 3: Prabhjeet Kaur
 
+## Team Responsibilities
+
+- Prabhjeet Kaur: Use cases, use case diagram, and complementary requirement documents.
+- Bhupinder Singh Gill: Diagrams and code implementation.
+- Navpreet Singh: Assist with code implementation and later testing with screenshots to ensure everything is working fine.
+
